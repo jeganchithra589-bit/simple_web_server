@@ -23,8 +23,20 @@ Testing the webserver.
 # PROGRAM:
 ```from http.server import HTTPServer, BaseHTTPRequestHandler
 
-content = '''<html>
-<h1>Hello</h1>
+content = '''
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Button Demo</title>
+  </head>
+  <body>
+    <h1>Hello, Beginner!</h1>
+   <ul> <p>first item</p>
+    <p>second item</p>
+    </ul>
+    <img src="https://www.python.org/static/community_logos/python-logo.png" alt="Python Logo" width="200">
+    <button>Click me!</button>
+  </body>
 </html>'''
 
 class MyServer(BaseHTTPRequestHandler):
@@ -41,8 +53,7 @@ httpd = HTTPServer(server_address, MyServer)
 httpd.serve_forever()
 ```
 # OUTPUT:
-![alt text](<Screenshot (25).png>)
-![alt text](<Screenshot (26).png>)
-
+![alt text](<Screenshot (27).png>)
+![alt text](<Screenshot (28).png>)
 # RESULT:
 The program for implementing simple webserver is executed successfully.
