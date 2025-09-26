@@ -27,14 +27,14 @@ content = '''
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Button Demo</title>
+    <title>Jegan (25017588)</title>
   </head>
   <body>
-    <h1>Hello, Beginner!</h1>
-   <ul> <p>first item</p>
-    <p>second item</p>
+    <h1>Hello beginner!!</h1>
+   <ul> <p>Jegan P(25017588)</p>
+    <p>Welcome to my webserver</p>
     </ul>
-    <img src="https://www.python.org/static/community_logos/python-logo.png" alt="Python Logo" width="200">
+    <img src="Screenshot (43).png" alt="Python Logo" width="200">
     <button>Click me!</button>
   </body>
 </html>'''
@@ -53,7 +53,16 @@ httpd = HTTPServer(server_address, MyServer)
 httpd.serve_forever()
 ```
 # OUTPUT:
-![alt text](<Screenshot (27).png>)
+![alt text](<../Screenshot (43).png>)
 ![alt text](<Screenshot (28).png>)
 # RESULT:
 The program for implementing simple webserver is executed successfully.
+
+# HOW TO RUN:
+1. Open a terminal and navigate to the project directory.
+2. Run the following command:
+  ```powershell
+  python new.py
+  ```
+3. Open your web browser and go to: [http://localhost:8000](http://localhost:8000)
+4. You should see the web page served by your Python web server.
